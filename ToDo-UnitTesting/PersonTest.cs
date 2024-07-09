@@ -1,12 +1,10 @@
-using System;
-using System.Security.Cryptography;
 using ToDoApp.Models;
-using Xunit;
 
 namespace ToDo_UnitTesting
 {
     public class PersonTest
     {
+        //------------------- Constructor Initialization TEST ----------------//
         [Fact]
         public void Constructor_ShouldInitializeProperties()
         {
@@ -24,8 +22,9 @@ namespace ToDo_UnitTesting
             Assert.Equal(_lastname, person.LastName);
         }
 
+        //------------------- FirstName Setter Exception TEST ----------------//
         [Fact]
-        public void FirstName_Setter_ShouldThrowArgumentException_WhenNullOrEmpty()
+        public void Description_Setter_ShouldThrowArgumentException_WhenNullOrEmpty()
         {
             // Arrange
             int _id = 1;
@@ -41,6 +40,7 @@ namespace ToDo_UnitTesting
             Assert.Throws<ArgumentNullException>(() => person.FirstName = " ");
         }
 
+        //------------------- LastName Setter Exception TEST ----------------//
         [Fact]
         public void LastName_Setter_ShouldThrowArgumentException_WhenNullOrEmpty()
         {
@@ -58,6 +58,7 @@ namespace ToDo_UnitTesting
             Assert.Throws<ArgumentNullException>(() => person.LastName = " ");
         }
 
+        //------------------- FirstName Setter Updation TEST ----------------//
         [Fact]
         public void FirstName_Setter_ShouldUpdateValue()
         {
@@ -72,6 +73,7 @@ namespace ToDo_UnitTesting
             Assert.Equal(fName, person.FirstName);
         }
 
+        //------------------- LastName Setter Updation TEST ----------------//
         [Fact]
         public void LastName_Setter_ShouldUpdateValue()
         {

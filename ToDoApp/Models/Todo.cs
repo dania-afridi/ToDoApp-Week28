@@ -15,20 +15,21 @@ namespace ToDoApp.Models
         private Person assignee;
 
         //------------- constructor to initialize private fields ---------------//
-        public Todo(int id, string description, Person assignee)
+        public Todo(int id, string description)
         {
             this.id = id;
             this.description = description;
-            this.assignee = assignee;
         }
 
+        //********** CONSTRUCTOR TO INITIALIZE ALL FIELDS ************//
+        /*
         public Todo(int id, string description, Person assignee, bool done)
         {
             this.id = id;
             this.description = description;
             this.assignee = assignee;
             this.done = done;
-        }
+        }*/
 
         //------------- public properties to access private field ---------------//
 
