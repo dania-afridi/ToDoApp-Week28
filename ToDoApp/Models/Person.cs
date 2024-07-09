@@ -8,6 +8,7 @@ namespace ToDoApp.Models
 {
     public class Person
     {
+        //------------- Private fields Created ---------------//
         private readonly int id;
         private string firstName;
         private string lastName;
@@ -19,37 +20,36 @@ namespace ToDoApp.Models
             this.firstName = firstName;
             this.lastName = lastName;
         }
+
         //------------- public properties to access private field while getting and setting ---------------//
 
         //********** FOR ID ************//
-        public int Id => this.id;
+        public int Id => id;
 
         //********** FOR FIRST NAME ************//
         public string FirstName
         {
-            get => this.firstName; 
+            get => firstName; 
             set
             {
                 if (string.IsNullOrWhiteSpace(value)) {
                     throw new ArgumentNullException("First Name could not be null or empty.");
                 }
-                else
-                    this.firstName = value;
+                firstName = value;
             }
         }
 
         //********** FOR LAST NAME ************//
         public string LastName
         {
-            get => this.lastName;
+            get => lastName;
             set
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
                     throw new ArgumentNullException("Last Name could not be null or empty.");
                 }
-                else
-                    this.lastName = value;
+                lastName = value;
             }
         }
     }

@@ -3,15 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4C2BACA-17A5-428D-AF54-B909181DA980}|..\\ToDo-UnitTesting\\ToDo-UnitTesting.csproj|c:\\users\\dania.afridi\\lexicon\\lexicon-week28\\assignment\\todoapp-week28\\todo-unittesting\\persontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{754D3CB8-EE90-40B4-A2FF-24B6DF20ACCD}|ToDoApp.csproj|c:\\users\\dania.afridi\\lexicon\\lexicon-week28\\assignment\\todoapp-week28\\todoapp\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{754D3CB8-EE90-40B4-A2FF-24B6DF20ACCD}|ToDoApp.csproj|solutionrelative:models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{754D3CB8-EE90-40B4-A2FF-24B6DF20ACCD}|ToDoApp.csproj|c:\\users\\dania.afridi\\lexicon\\lexicon-week28\\assignment\\todoapp-week28\\todoapp\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{754D3CB8-EE90-40B4-A2FF-24B6DF20ACCD}|ToDoApp.csproj|solutionrelative:models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{754D3CB8-EE90-40B4-A2FF-24B6DF20ACCD}|ToDoApp.csproj|c:\\users\\dania.afridi\\lexicon\\lexicon-week28\\assignment\\todoapp-week28\\todoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{754D3CB8-EE90-40B4-A2FF-24B6DF20ACCD}|ToDoApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754D3CB8-EE90-40B4-A2FF-24B6DF20ACCD}|ToDoApp.csproj|c:\\users\\dania.afridi\\lexicon\\lexicon-week28\\assignment\\todoapp-week28\\todoapp\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{754D3CB8-EE90-40B4-A2FF-24B6DF20ACCD}|ToDoApp.csproj|solutionrelative:models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,45 +25,44 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\Models\\Person.cs",
-              "RelativeDocumentMoniker": "Models\\Person.cs",
-              "ToolTip": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\Models\\Person.cs",
-              "RelativeToolTip": "Models\\Person.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T19:45:08.157Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PersonTest.cs",
-              "DocumentMoniker": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDo-UnitTesting\\PersonTest.cs",
-              "RelativeDocumentMoniker": "..\\ToDo-UnitTesting\\PersonTest.cs",
-              "ToolTip": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDo-UnitTesting\\PersonTest.cs",
-              "RelativeToolTip": "..\\ToDo-UnitTesting\\PersonTest.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAQwDEAAAAhAAAA",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "Models\\Person.cs",
+              "ToolTip": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\Models\\Person.cs",
+              "RelativeToolTip": "Models\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T20:21:58.258Z",
+              "WhenOpened": "2024-07-09T14:52:29.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Todo.cs",
+              "DocumentMoniker": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\Models\\Todo.cs",
+              "RelativeDocumentMoniker": "Models\\Todo.cs",
+              "ToolTip": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\Models\\Todo.cs",
+              "RelativeToolTip": "Models\\Todo.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAAB0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T14:40:55.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-08T19:37:33.872Z",
               "EditorCaption": ""
