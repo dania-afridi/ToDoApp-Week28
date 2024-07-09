@@ -2,7 +2,7 @@ using ToDoApp.Models;
 
 namespace ToDo_UnitTesting
 {
-    public class PersonTest
+    public class Person_Test
     {
         //------------------- Constructor Initialization TEST ----------------//
         [Fact]

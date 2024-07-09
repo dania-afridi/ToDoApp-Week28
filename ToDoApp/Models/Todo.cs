@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ToDoApp.Models
+﻿namespace ToDoApp.Models
 {
     public class Todo
     {
@@ -31,7 +25,7 @@ namespace ToDoApp.Models
             this.done = done;
         }*/
 
-        //------------- public properties to access private field ---------------//
+        //------------- public properties to get, set and access private field ---------------//
 
         //********** FOR ID ************//
         public int Id => id;
