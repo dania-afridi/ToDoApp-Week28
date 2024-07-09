@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToDo-UnitTesting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abc6d2d727f25e0a016f59e3261de8668094ffe0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db1bc51ee94acd95d6c93be661fcb8e2232a02e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToDo-UnitTesting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToDo-UnitTesting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

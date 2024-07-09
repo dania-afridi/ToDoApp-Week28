@@ -3,8 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{754D3CB8-EE90-40B4-A2FF-24B6DF20ACCD}|ToDoApp.csproj|c:\\users\\dania.afridi\\lexicon\\lexicon-week28\\assignment\\todoapp-week28\\todoapp\\data\\personsequencer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{754D3CB8-EE90-40B4-A2FF-24B6DF20ACCD}|ToDoApp.csproj|solutionrelative:data\\personsequencer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4C2BACA-17A5-428D-AF54-B909181DA980}|..\\ToDo-UnitTesting\\ToDo-UnitTesting.csproj|c:\\users\\dania.afridi\\lexicon\\lexicon-week28\\assignment\\todoapp-week28\\todo-unittesting\\todosequencer_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754D3CB8-EE90-40B4-A2FF-24B6DF20ACCD}|ToDoApp.csproj|c:\\users\\dania.afridi\\lexicon\\lexicon-week28\\assignment\\todoapp-week28\\todoapp\\data\\todosequencer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{754D3CB8-EE90-40B4-A2FF-24B6DF20ACCD}|ToDoApp.csproj|solutionrelative:data\\todosequencer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{754D3CB8-EE90-40B4-A2FF-24B6DF20ACCD}|ToDoApp.csproj|c:\\users\\dania.afridi\\lexicon\\lexicon-week28\\assignment\\todoapp-week28\\todoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,19 +21,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PersonSequencer.cs",
-              "DocumentMoniker": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\Data\\PersonSequencer.cs",
-              "RelativeDocumentMoniker": "Data\\PersonSequencer.cs",
-              "ToolTip": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\Data\\PersonSequencer.cs",
-              "RelativeToolTip": "Data\\PersonSequencer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "DocumentIndex": 1,
+              "Title": "TodoSequencer.cs",
+              "DocumentMoniker": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\Data\\TodoSequencer.cs",
+              "RelativeDocumentMoniker": "Data\\TodoSequencer.cs",
+              "ToolTip": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\Data\\TodoSequencer.cs",
+              "RelativeToolTip": "Data\\TodoSequencer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T17:23:44.824Z",
+              "WhenOpened": "2024-07-09T19:28:26.552Z",
               "EditorCaption": ""
             },
             {
@@ -39,7 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "TodoSequencer_Test.cs",
+              "DocumentMoniker": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDo-UnitTesting\\TodoSequencer_Test.cs",
+              "RelativeDocumentMoniker": "..\\ToDo-UnitTesting\\TodoSequencer_Test.cs",
+              "ToolTip": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDo-UnitTesting\\TodoSequencer_Test.cs",
+              "RelativeToolTip": "..\\ToDo-UnitTesting\\TodoSequencer_Test.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAIwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T19:26:34.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -47,8 +63,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T19:37:33.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T19:37:33.872Z"
             }
           ]
         }
