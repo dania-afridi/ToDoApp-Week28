@@ -3,8 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{754D3CB8-EE90-40B4-A2FF-24B6DF20ACCD}|ToDoApp.csproj|c:\\users\\dania.afridi\\lexicon\\lexicon-week28\\assignment\\todoapp-week28\\todoapp\\data\\peopleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{754D3CB8-EE90-40B4-A2FF-24B6DF20ACCD}|ToDoApp.csproj|solutionrelative:data\\peopleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4C2BACA-17A5-428D-AF54-B909181DA980}|..\\ToDo-UnitTesting\\ToDo-UnitTesting.csproj|c:\\users\\dania.afridi\\lexicon\\lexicon-week28\\assignment\\todoapp-week28\\todo-unittesting\\todoservice_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4C2BACA-17A5-428D-AF54-B909181DA980}|..\\ToDo-UnitTesting\\ToDo-UnitTesting.csproj|c:\\users\\dania.afridi\\lexicon\\lexicon-week28\\assignment\\todoapp-week28\\todo-unittesting\\peopleservice_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -17,11 +16,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TodoService_Test.cs",
+              "DocumentMoniker": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDo-UnitTesting\\TodoService_Test.cs",
+              "RelativeDocumentMoniker": "..\\ToDo-UnitTesting\\TodoService_Test.cs",
+              "ToolTip": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDo-UnitTesting\\TodoService_Test.cs",
+              "RelativeToolTip": "..\\ToDo-UnitTesting\\TodoService_Test.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwCsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T17:40:39.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -31,22 +43,9 @@
               "RelativeDocumentMoniker": "..\\ToDo-UnitTesting\\PeopleService_Test.cs",
               "ToolTip": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDo-UnitTesting\\PeopleService_Test.cs",
               "RelativeToolTip": "..\\ToDo-UnitTesting\\PeopleService_Test.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAAAFkAAAAAAAAA",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAIwG4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T16:14:07.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PeopleService.cs",
-              "DocumentMoniker": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\Data\\PeopleService.cs",
-              "RelativeDocumentMoniker": "Data\\PeopleService.cs",
-              "ToolTip": "C:\\Users\\dania.afridi\\Lexicon\\lexicon-week28\\Assignment\\ToDoApp-Week28\\ToDoApp\\Data\\PeopleService.cs",
-              "RelativeToolTip": "Data\\PeopleService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T16:06:34.146Z",
               "EditorCaption": ""
             }
           ]
