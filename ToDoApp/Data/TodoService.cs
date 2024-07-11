@@ -26,8 +26,9 @@ namespace ToDoApp.Data
         }
 
         //********** TO CREATE TodoItem AND ADD IN TodoItems BY RESIZING TodoItems Array ************//
-        public Todo Create(int itemId, string description)
+        public Todo Create(string description)
         {
+            int itemId = TodoSequencer.NextTodo_item_Id();
             Todo item = new Todo(itemId, description);
 
             Array.Resize(ref TodoItems, TodoItems.Length + 1); // Expand array to add new item
@@ -36,10 +37,37 @@ namespace ToDoApp.Data
             return item;
         }
 
-        //********** TO RESET PEOPLE ************//
+        //********** TO RESET TodoItems ************//
         public void Clear()
         {
             TodoItems = new Todo[0];
         }
+
+        //------------- Find methods to return array ------------------//
+
+        //********** TO Find TodoItems have done status true ************//
+        public Todo[] FindByDoneStatus(bool doneStatus)
+        {
+            return TodoItems.Where(todo => todo.Done == doneStatus).ToArray();
+        }
+
+        //********** TO Find TodoItems By Assignee Id ************//
+        public Todo[] FindByAssignee(int personId)
+        {
+            return TodoItems.Where(todo => todo.Assignee != null && todo.Assignee.Id == personId).ToArray();
+        }
+
+        //********** TO Find TodoItems By Assignee ************//
+        public Todo[] FindByAssignee(Person assignee)
+        {
+            return TodoItems.Where(todo => todo.Assignee == assignee).ToArray();
+        }
+
+        //********** TO Find TodoItems By Unassigned assignee value  ************//
+        public Todo[] FindUnassignedTodoItems()
+        {
+            return TodoItems.Where(todo => todo.Assignee == null).ToArray();
+        }
+
     }
 }
