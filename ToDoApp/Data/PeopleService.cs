@@ -41,5 +41,18 @@ namespace ToDoApp.Data
         {
             people = new Person[0];
         }
+
+        //********** TO Remove Person From the Array  ************//
+        public void RemovePerson(int personId)
+        {
+            //********** Finding Index ************//
+            int index = Array.FindIndex(people, person => person.Id == personId);
+
+            //********** Setting Array by removing Person ************//
+            if (index >= 0)
+            {
+                people = people.Where((person, i) => i != index).ToArray();
+            }
+        }
     }
 }

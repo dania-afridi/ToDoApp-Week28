@@ -201,5 +201,24 @@ namespace ToDo_UnitTesting
             Assert.Equal(item1, unAssignedItem[0]);
 
         }
+
+        //--------------- TodoService Remove Method Testing ----------//
+        [Fact]
+        public void RemoveItem_ShouldRemoveItemFromArray()
+        {
+            // Arrange
+            TodoService service = new TodoService();
+            service.Clear();
+            Todo item1 = service.Create("This is item number one.");
+            Todo item2 = service.Create("This is item number two.");
+
+            // Act
+            service.RemoveItem(item1.Id);
+
+            // Assert
+            Assert.Single(service.FindAll());
+            Assert.Null(service.FindById(item1.Id));
+            Assert.NotNull(service.FindById(item2.Id));
+        }
     }
 }

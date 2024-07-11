@@ -69,5 +69,17 @@ namespace ToDoApp.Data
             return TodoItems.Where(todo => todo.Assignee == null).ToArray();
         }
 
+        //********** TO Remove TodoItem From the Array  ************//
+        public void RemoveItem(int itemId)
+        {
+            //********** Finding Index ************//
+            int index = Array.FindIndex(TodoItems, item => item.Id == itemId);
+
+            //********** Setting Array by removing item ************//
+            if (index >= 0)
+            {
+                TodoItems = TodoItems.Where((item, i) => i != index).ToArray();
+            }
+        }
     }
 }

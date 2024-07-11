@@ -106,5 +106,24 @@ namespace ToDo_UnitTesting
             Assert.Equal(0, service.Size());
             Assert.Empty(service.FindAll());
         }
+
+        //--------------- PeopleService Remove Method Testing ----------//
+        [Fact]
+        public void RemovePerson_ShouldRemovePersonFromArray()
+        {
+            // Arrange
+            PeopleService service = new PeopleService();
+            service.Clear();
+            Person person1 = service.Create("Awais", "Khan");
+            Person person2 = service.Create("Anabia", "Khan");
+
+            // Act
+            service.RemovePerson(person1.Id);
+
+            // Assert
+            Assert.Single(service.FindAll());
+            Assert.Null(service.FindById(person1.Id));
+            Assert.NotNull(service.FindById(person2.Id));
+        }
     }
 }
